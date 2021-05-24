@@ -1,3 +1,7 @@
+.find-body {
+  height: 110vh;
+}
+
 .recommended-friends {
   border-top: var(--main-border);
   border-bottom: var(--main-border);
@@ -8,6 +12,7 @@
 
 .recommended-friends-title {
   font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .recommended-friends span {

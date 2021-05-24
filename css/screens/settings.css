@@ -1,6 +1,10 @@
+.settings-body {
+  height: 120vh;
+}
 .settings-list {
   display: flex;
   flex-direction: column;
+  margin-bottom: 40px;
 }
 
 .settings-setting {
@@ -9,7 +13,7 @@
   justify-content: space-between;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 20px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .settings-setting i {

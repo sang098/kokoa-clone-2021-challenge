@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - Kokoa Talk</title>
+    <title>탐색 - 어피치톡</title>
   </head>
   <body>
     <div class="status-bar">
@@ -14,7 +14,7 @@
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>11:10</span>
+        <span>20:20</span>
       </div>
       <div class="status-bar__column">
         <span>100%</span>
@@ -24,7 +24,7 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Find</h1>
+      <h1 class="screen-header__title">탐색</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span
@@ -33,42 +33,79 @@
       </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen find-body">
       <div class="icon-rows">
         <div class="icon-row find-icon">
-          <i class="fas fa-qrcode"></i><span>QR Code</span>
+          <i class="fas fa-qrcode"></i><span>QR코드</span>
         </div>
         <div class="icon-row find-icon">
-          <i class="far fa-address-book"></i><span>Add by<br />Contacts</span>
+          <i class="far fa-address-book"></i><span>연락처 추가</span>
         </div>
         <div class="icon-row find-icon">
-          <i class="far fa-plus-square"></i><span>Add by ID</span>
+          <i class="far fa-plus-square"></i><span>계정 추가</span>
         </div>
         <div class="icon-row find-icon">
-          <i class="far fa-envelope"></i><span>Invite</span>
+          <i class="far fa-envelope"></i><span>초대하기</span>
         </div>
       </div>
       <div class="recommended-friends">
-        <h6 class="recommended-friends-title">Recommended Friends</h6>
-        <span>You have no recommended friends.</span>
+        <h6 class="recommended-friends-title">추천 친구</h6>
+        <!-- <span>You have no recommended friends.</span> -->
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__image"
+              src="https://i.pinimg.com/564x/83/6b/5f/836b5fbea54ad957fbc397600ea072de.jpg"
+            />
+            <div class="user-component__text">
+              <h1 class="user-component__title">죠르디</h1>
+              <!-- <h4 class="user-component__subtitle"></h4> -->
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__image"
+              src="https://i.pinimg.com/564x/05/67/ad/0567ad0aaa6c8bf191b2b56bd7de6767.jpg"
+            />
+            <div class="user-component__text">
+              <h1 class="user-component__title">스카피</h1>
+              <!-- <h4 class="user-component__subtitle"></h4> -->
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__image"
+              src="https://i.pinimg.com/originals/ea/7d/0e/ea7d0ed3cb34a291377c3daa6cfe6377.gif"
+            />
+            <div class="user-component__text">
+              <h1 class="user-component__title">케로&베로니</h1>
+              <!-- <h4 class="user-component__subtitle"></h4> -->
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
       </div>
       <div class="open-chat">
         <div class="open-chat-text">
-          <h6 class="open-chat-text-title">Open Chat</h6>
-          <span
-            >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i
-          ></span>
+          <h6 class="open-chat-text-title">오픈 채팅</h6>
+          <span><i class="fas fa-chevron-right fa-xs"></i></span>
         </div>
         <div class="open-chat-component">
           <div class="open-chat-component__column">
-            <h5 class="open-chat-component__title">#BTS</h5>
-            <h6 class="open-chat-component__hashtag">#bts#army#friends</h6>
+            <h5 class="open-chat-component__title">어피치 팬클럽</h5>
+            <h6 class="open-chat-component__hashtag">#어피치#귀여워#세젤귀</h6>
             <div class="open-chat-component__member">
               <img
-                src="https://tistory3.daumcdn.net/tistory/2864444/attach/628442af44f545c788ffdc5035464f98"
+                src="https://i.pinimg.com/236x/3d/61/1d/3d611ddadd47e36002d75728f706b4d9.jpg"
                 class="open-chat-component__member-image"
               />
-              <span>802 members</span>
+              <span>5959 members</span>
               <div class="open-chat-component__member-divider"></div>
               <span class="open-chat-component__member-status">Active</span>
             </div>
@@ -76,12 +113,66 @@
           <div class="open-chat-component__column">
             <div class="open-chat-component__image">
               <img
-                src="https://file2.nocutnews.co.kr/newsroom/image/2021/03/11/202103111834384662_0.jpg"
+                src="https://i.pinimg.com/236x/3d/61/1d/3d611ddadd47e36002d75728f706b4d9.jpg"
                 class="open-chat-component__image-main"
               />
               <div class="open-chat-component__image-like">
                 <i class="fas fa-heart fa-xs"></i>
-                <span>529</span>
+                <span>5678</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="open-chat-component">
+          <div class="open-chat-component__column">
+            <h5 class="open-chat-component__title">꽁냥꽁냥</h5>
+            <h6 class="open-chat-component__hashtag">#연애#커플#오래가자</h6>
+            <div class="open-chat-component__member">
+              <img
+                src="https://i.pinimg.com/564x/3d/d9/ec/3dd9ec732c4222e23ca3fdeaf721dff4.jpg"
+                class="open-chat-component__member-image"
+              />
+              <span>712 members</span>
+              <div class="open-chat-component__member-divider"></div>
+              <span class="open-chat-component__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-chat-component__column">
+            <div class="open-chat-component__image">
+              <img
+                src="https://i.pinimg.com/564x/3d/d9/ec/3dd9ec732c4222e23ca3fdeaf721dff4.jpg"
+                class="open-chat-component__image-main"
+              />
+              <div class="open-chat-component__image-like">
+                <i class="fas fa-heart fa-xs"></i>
+                <span>222</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="open-chat-component">
+          <div class="open-chat-component__column">
+            <h5 class="open-chat-component__title">니니즈 사랑해</h5>
+            <h6 class="open-chat-component__hashtag">#신인#니니즈#흥해라</h6>
+            <div class="open-chat-component__member">
+              <img
+                src="https://i.pinimg.com/564x/7f/c1/de/7fc1ded43d9abb374442a7369311ce74.jpg"
+                class="open-chat-component__member-image"
+              />
+              <span>129 members</span>
+              <div class="open-chat-component__member-divider"></div>
+              <span class="open-chat-component__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-chat-component__column">
+            <div class="open-chat-component__image">
+              <img
+                src="https://i.pinimg.com/564x/7f/c1/de/7fc1ded43d9abb374442a7369311ce74.jpg"
+                class="open-chat-component__image-main"
+              />
+              <div class="open-chat-component__image-like">
+                <i class="fas fa-heart fa-xs"></i>
+                <span>58</span>
               </div>
             </div>
           </div>
@@ -97,7 +188,7 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <div class="nav__notification badge">1</div>
+          <div class="nav__notification badge">5</div>
           <a href="chats.html" class="nav__link"
             ><i class="far fa-comment fa-2x"></i
           ></a>

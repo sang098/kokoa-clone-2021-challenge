@@ -1,4 +1,4 @@
-body {
+.friends-body {
   background-color: var(--main-bg);
   height: 120vh;
 }

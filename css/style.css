@@ -24,6 +24,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #2f363e;
+  background-color: var(--main-bg);
 }
 
 .home-background {

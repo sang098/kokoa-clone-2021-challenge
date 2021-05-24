@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   object-fit: cover;
+  margin-bottom: 20px;
 }
 
 .user-component__column:first-child {
@@ -27,6 +28,7 @@
   height: 70px;
   border-radius: 30px;
   margin-right: 20px;
+  object-fit: cover;
 }
 
 .user-component__image--xl {

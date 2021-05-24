@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Kokoa Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>11:10</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="icon-rows">
+        <div class="icon-row find-icon">
+          <i class="fas fa-qrcode"></i><span>QR Code</span>
+        </div>
+        <div class="icon-row find-icon">
+          <i class="far fa-address-book"></i><span>Add by<br />Contacts</span>
+        </div>
+        <div class="icon-row find-icon">
+          <i class="far fa-plus-square"></i><span>Add by ID</span>
+        </div>
+        <div class="icon-row find-icon">
+          <i class="far fa-envelope"></i><span>Invite</span>
+        </div>
+      </div>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends-title">Recommended Friends</h6>
+        <span>You have no recommended friends.</span>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat-text">
+          <h6 class="open-chat-text-title">Open Chat</h6>
+          <span
+            >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i
+          ></span>
+        </div>
+        <div class="open-chat-component">
+          <div class="open-chat-component__column">
+            <h5 class="open-chat-component__title">#BTS</h5>
+            <h6 class="open-chat-component__hashtag">#bts#army#friends</h6>
+            <div class="open-chat-component__member">
+              <img
+                src="https://tistory3.daumcdn.net/tistory/2864444/attach/628442af44f545c788ffdc5035464f98"
+                class="open-chat-component__member-image"
+              />
+              <span>802 members</span>
+              <div class="open-chat-component__member-divider"></div>
+              <span class="open-chat-component__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-chat-component__column">
+            <div class="open-chat-component__image">
+              <img
+                src="https://file2.nocutnews.co.kr/newsroom/image/2021/03/11/202103111834384662_0.jpg"
+                class="open-chat-component__image-main"
+              />
+              <div class="open-chat-component__image-like">
+                <i class="fas fa-heart fa-xs"></i>
+                <span>529</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a href="friends.html" class="nav__link"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <div class="nav__notification badge">1</div>
+          <a href="chats.html" class="nav__link"
+            ><i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="find.html" class="nav__link"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <div class="nav__badge badge-small"></div>
+          <a href="more.html" class="nav__link"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="screen-big"><span>screen is too big</span></div>
+    <div id="screen-small"><span>screen is too small</span></div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

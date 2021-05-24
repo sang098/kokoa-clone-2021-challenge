@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chat - Kokoa Talk</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar chat-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>11:10</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-screen-header chat-header">
+      <div class="alt-screen-header__column">
+        <a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-screen-header__column">
+        <h1 class="alt-screen-header__title">브레이브걸스</h1>
+      </div>
+      <div class="alt-screen-header__column">
+        <i class="fas fa-search fa-lg"></i>
+        <i class="fas fa-bars fa-lg bar-padding"></i>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat-timestamp">2021년 05월 23일 (일)</div>
+      <div class="chat-row">
+        <div class="chat-row__column">
+          <img
+            src="http://www.ktnews.com/news/photo/202105/119212_77769_1552.jpg"
+            class="chat-row-image"
+          />
+        </div>
+        <div class="chat-row__column">
+          <span class="chat-row-author">브레이브걸스</span>
+          <div class="chat-row-content">
+            <div class="chat-row-message">안녕하세요!</div>
+            <span>21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="chat-row chat-row--own">
+        <div class="chat-row__column"></div>
+        <div class="chat-row__column">
+          <div class="chat-row-content">
+            <div class="chat-row-message">네!! 안녕하세요!!</div>
+            <span>21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column"><i class="far fa-plus-square fa-lg"></i></div>
+      <div class="reply__column">
+        <input type="text" placeholder="내용을 입력하세요" />
+        <i class="far fa-smile"></i>
+        <button><i class="fas fa-arrow-up fa-lg"></i></button>
+      </div>
+    </form>
+
+    <div id="screen-big"><span>screen is too big</span></div>
+    <div id="screen-small"><span>screen is too small</span></div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

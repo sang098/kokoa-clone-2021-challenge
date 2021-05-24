@@ -1,0 +1,129 @@
+.recommended-friends {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  margin: 25px 0px;
+  padding-top: 15px;
+  color: var(--gray);
+}
+
+.recommended-friends-title {
+  font-size: 18px;
+}
+
+.recommended-friends span {
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  padding: 80px 0px;
+}
+
+.open-chat-component {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.open-chat-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.open-chat-text-title {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.open-chat-text span {
+  color: var(--gray);
+}
+
+/* open chat */
+
+.open-chat-component {
+  margin: 15px 0px;
+}
+
+.open-chat-component__title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.open-chat-component__hashtag {
+  text-transform: uppercase;
+  color: var(--gray);
+  margin: 5px 0px;
+}
+
+.open-chat-component__member {
+  display: flex;
+  align-items: center;
+  color: var(--gray);
+}
+
+.open-chat-component__member-divider {
+  width: 2px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0px 5px;
+}
+
+.open-chat-component__member-status {
+  color: pink;
+}
+
+.open-chat-component__member-image {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.open-chat-component__image {
+  position: relative;
+}
+
+.open-chat-component__image-main {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.open-chat-component__image-like {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.open-chat-component__image-like i {
+  padding-right: 5px;
+}
+
+.open-chat-component__image-like:hover i {
+  will-change: auto;
+  animation: like-color 1s ease-in-out infinite;
+}
+
+@keyframes like-color {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: red;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}

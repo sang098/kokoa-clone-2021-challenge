@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+@import "variables.css";
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-rows.css";
+@import "components/alt-screen-header.css";
+/* screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #2f363e;
+}
+
+.home-background {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+#screen-big,
+#screen-small {
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-weight: 600;
+  background-color: var(--yellow);
+  z-index: 100;
+}
+
+@media screen and (min-width: 410px) {
+  #screen-small {
+    display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  #screen-big {
+    display: none;
+  }
+}

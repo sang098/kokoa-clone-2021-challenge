@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>어피치톡에 오신걸 환영합니다!</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>11:10</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">어피치톡에 오신걸 환영합니다!</h1>
+      <p class="welcome-header__text">귀여운 어피치를 보러 가볼까요!</p>
+    </header>
+    <form action="friends.html" method="GET" id="login-form">
+      <input
+        name="username"
+        required
+        type="text"
+        placeholder="닉네임 (ex : 말랑말랑 어피치)"
+      />
+      <input
+        name="password"
+        required
+        minlength="6"
+        type="password"
+        placeholder="비밀번호 (최소 6자리)"
+      /><input type="submit" value="입장하기" />
+      <a href="#">아이디 / 비밀번호를 잊어버렸나요?</a>
+    </form>
+
+    <img
+      src="https://i.pinimg.com/564x/40/e1/6d/40e16df8b7de39cf6a3d0c8d2cc3d064.jpg"
+      class="home-background"
+    />
+
+    <div id="screen-big"><span>screen is too big</span></div>
+    <div id="screen-small"><span>screen is too small</span></div>
+
+    <div id="screen-big"><span>screen is too big</span></div>
+    <div id="screen-small"><span>screen is too small</span></div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

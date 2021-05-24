@@ -11,6 +11,11 @@
   align-items: center;
   padding: 10px;
   box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-row:hover {
+  transform: scale(1.2);
 }
 
 .icon-row i {

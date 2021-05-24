@@ -47,12 +47,33 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 100px;
   font-weight: 600;
-  background-color: var(--yellow);
   z-index: 100;
+  object-fit: cover;
+}
+
+#screen-small {
+  background-color: white;
+  font-size: 20px;
+}
+
+#screen-small img {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+#screen-big {
+  background-color: #f8d4d6;
+  font-size: 40px;
+}
+
+#screen-big img {
+  width: 300px;
+  margin-top: 20px;
 }
 
 @media screen and (min-width: 410px) {
